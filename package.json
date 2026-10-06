@@ -1,0 +1,26 @@
+{
+  "name": "memory-garden",
+  "version": "1.0.0",
+  "description": "🌿 Memory Garden - Cute memory card battle game (PvC & PvP Online with Socket.IO)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "memory-game",
+    "socketio",
+    "multiplayer",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "Senior Full-Stack Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}
